@@ -30,3 +30,15 @@ hi(None, None)        | Hi AI-BTX!
 def sumtwoint(i1, i2):
   return 'todo'
 #endregion bailam
+def hi(name , gender ):
+  xung_ho = 'Ms' if gender == 'f' else 'Mr'
+  #print('hi '  + name + '!')
+  return(f'hi {xung_ho} {name}!')
+  #print('bye')
+  #print()
+
+hi(name='mum', gender ='f')
+hi(name ='dad', gender='male')
+hi('AI-BTX', None)    
+hi(None, None)    
+  
